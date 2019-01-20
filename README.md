@@ -8,9 +8,9 @@ center](https://github.com/KSmanis/kwin-move-window-to-center) script.  Here
 we extend that idea to move windows to corners/edges and to resize to
 dimensions that I personally find useful.
 
-Note that "I personally find useful" defaults catering to a Dvorak keyboard
-layout and 3200x1800 screen; however, any hardcoded defaults should be easy
-to adjust to your own environment and workflow.
+Note that what "I personally find useful" includes defaults catering to a
+Dvorak keyboard layout and 3200x1800 monitor; however, any hardcoded
+defaults should be easy to adjust to your own environment and workflow.
 
 If you find this useful, you are strongly encouraged to fork this repository
 -- and to share your ideas with [me](mailto:mike.d.richman@gmail.com)!
