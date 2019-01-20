@@ -22,8 +22,10 @@
 // You should have received a copy of the GNU General Public License
 // along with this program. If not, see <https://www.gnu.org/licenses/>.
 
-
-decWidth = 10;
+// decorator width
+// correction for certain placements
+// 10 for most of my windows, but 0 for some, so setting to 0 for now
+decWidth = 0;
 
 // moveToPosition(horizontal, vertical)
 // moves window to a corner or edge
@@ -41,8 +43,8 @@ function moveToPosition(horizontal, vertical) {
         var dy = (maxArea.height - client.height) / 2;
         var X = maxArea.x + horizontal * dx;
         var Y = maxArea.y + vertical * dy;
-        if (horizontal == 0) X = X - decWidth; // decoration width?
-        if (horizontal == 2) X = X + decWidth; // decoration width?
+        if (horizontal == 0) X = X - decWidth;
+        if (horizontal == 2) X = X + decWidth;
         client.geometry = {
             x: X, y: Y,
             width: client.width, height: client.height
